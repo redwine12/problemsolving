@@ -1,34 +1,32 @@
-// Online C compiler to run C program online
 #include <stdio.h>
 
 int main() {
-    int n; // 과목개수
-    int m=0; // 점수중 최대값
-    float avg = 0; // 평균
-    
+    int n; //과목 개수
     scanf("%d", &n);
-    double arr[1000];
+    float score[n];
+    int max = 0;
+    float avg;
     
     for (int i=0; i<n; i++)
     {
-        scanf("%lf", &arr[i]);
-        if (arr[i] > m)
-        {
-            m = arr[i];
-        }
+        scanf("%f", &score[i]);
+        if (score[i] > max){
+            max = score[i];}
+        
     }
     
     for (int i=0; i<n; i++)
     {
-        arr[i] = arr[i]/m*100;
-        avg = avg + arr[i];
+        avg += score[i] / max*100;
     }
     
-    printf("%.2f", avg/n);
+    printf("%f", avg/n);
+
+    
+    
+    
     
     
     
 
-
-    return 0;
 }
