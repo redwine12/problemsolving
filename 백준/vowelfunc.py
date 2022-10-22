@@ -11,8 +11,7 @@ def solution(my_string):
     
     return answer
 
-
-    # 2nd solve
+    # 2nd solution
     # def solution(my_string):
     #     vowels = ['a','e','i','o','u']
     #     for vowel in vowels:
