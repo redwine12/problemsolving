@@ -4,7 +4,7 @@ int main() {
   int firstmac, t, r, m, work = 0; //
   int time, mac, exe = 0;
   scanf("%d %d %d %d %d", &work, &firstmac, &m, &t, &r);
-
+  // work = goal time
   mac = firstmac;
 
   if (firstmac+t>m)
