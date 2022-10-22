@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int t; 
+    int t; // 테스트 케이스 개수
     int a, b;
     scanf("%d", &t);
   
