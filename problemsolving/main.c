@@ -1,14 +1,9 @@
-//
-//  main.c
-//  problemsolving
-//
-//  Created by 이재영 on 2022/10/27.
-//
 
 #include <stdio.h>
+#include <time.h>
+#include <string.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+int main() {
+    
     return 0;
 }
