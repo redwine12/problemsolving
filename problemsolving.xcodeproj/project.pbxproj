@@ -6,10 +6,6 @@
 	objectVersion = 56;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		AECECFE7290A888B00F8AB46 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AECECFE6290A888B00F8AB46 /* main.c */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		AECECFE1290A888B00F8AB46 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -23,8 +19,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AEC31FFD290ACF85001735FE /* testing.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = testing.c; path = "백준/testing.c"; sourceTree = "<group>"; };
 		AECECFE3290A888B00F8AB46 /* problemsolving */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = problemsolving; sourceTree = BUILT_PRODUCTS_DIR; };
-		AECECFE6290A888B00F8AB46 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +37,7 @@
 		AECECFDA290A888B00F8AB46 = {
 			isa = PBXGroup;
 			children = (
-				AECECFE5290A888B00F8AB46 /* problemsolving */,
+				AEC31FFD290ACF85001735FE /* testing.c */,
 				AECECFE4290A888B00F8AB46 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,14 +48,6 @@
 				AECECFE3290A888B00F8AB46 /* problemsolving */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		AECECFE5290A888B00F8AB46 /* problemsolving */ = {
-			isa = PBXGroup;
-			children = (
-				AECECFE6290A888B00F8AB46 /* main.c */,
-			);
-			path = problemsolving;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +107,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AECECFE7290A888B00F8AB46 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
