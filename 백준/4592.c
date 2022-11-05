@@ -5,6 +5,36 @@
 
 
 int main(int argc, const char * argv[]){
+    // 코드 수정, 배열 사용 X
+    // testcast동안 정수 입력받아서 이전 꺼랑 같은 수가
+    // 입력되면 출력에서 배제함
+    int t, n;
+    while(1){
+        scanf("%d", &t);
+        if (t==0) return 0;
+        int temp = -1;
+        for (int i=0; i<t; i++){
+            scanf("%d",&n);
+            if(n != temp)
+                {
+                    printf("%d ", n);
+                    temp = n;
+                }
+            else if (n == temp)
+                continue;
+        }
+        
+        printf("$\n");
+    }
+
+    return 0;
+}
+
+    // 첫 번째 풀이 - 배열 이용
+    // 값을 배열에 저장해서 배열크기만큼 돌리는 동안 중복된 원소를
+    // 빼서 새로운 배열을 선언하여 출력함
+    // 단점 - 코드가 너무 길어짐
+    /*
     int test;
     while(1){
         scanf("%d", &test);
@@ -25,7 +55,6 @@ int main(int argc, const char * argv[]){
                 j++;
             }
         }
-        //printf("j의 값은 %d\n\n", j);
         for (int i=0; i<26; i++)
         {
             if (newarr[i] != 0)
@@ -35,3 +64,5 @@ int main(int argc, const char * argv[]){
     }
     return 0;
 }
+*/
+
