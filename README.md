@@ -1,3 +1,3 @@
-including auto push by  [BaekjoonHub]
+includes some auto pushes by  [BaekjoonHub]
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=leejay)](https://solved.ac/leejay/)
